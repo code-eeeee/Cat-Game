@@ -24,7 +24,7 @@ bool loop(string cat, string answer_20, string answer_21, string answer_22){
   vector<string> three_items = {"Salt", "Oil", "Sugar"};
   for(int i = 0; i < three_items.size(); i++){
     if (answer_20 == three_items[i] || answer_21 == three_items[i] || answer_22 == three_items[i]){
-      
+      return true
     } else{
       return false;
       break;
